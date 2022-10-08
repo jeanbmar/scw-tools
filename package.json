@@ -1,0 +1,27 @@
+{
+  "name": "@ultrapowa/scw-tools",
+  "version": "1.0.0",
+  "description": "A tool to convert scw files from Supercell games to Collada (dae) format",
+  "keywords": ["supercell", "scw", "clash of clans", "clash royale", "brawl stars", "boom beach", "hay day", "reverse"],
+  "files": ["/lib/**/*"],
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeanbmar/scw-tools.git"
+  },
+  "author": "Jean-Baptiste Martin",
+  "license": "MIT",
+  "homepage": "https://github.com/jeanbmar/scw-tools",
+  "dependencies": {
+    "smart-buffer": "^4.2.0",
+    "xmlbuilder": "^15.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
